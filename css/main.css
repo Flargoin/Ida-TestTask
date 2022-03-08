@@ -329,7 +329,7 @@ a {
 }
 @media (max-width: 760px) {
   .content-item {
-   margin-right: 0; 
+   margin-right: 0 !important; 
   }
 }
 @media (max-width: 380px) {
