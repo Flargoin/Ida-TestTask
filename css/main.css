@@ -327,6 +327,11 @@ a {
     display: block !important;
   }
 }
+@media (max-width: 760px) {
+  .content-item {
+   margin-right: 0; 
+  }
+}
 @media (max-width: 380px) {
   .catalog-form .form {
     width: 300px;
