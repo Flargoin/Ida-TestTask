@@ -34,7 +34,6 @@
             <span>Наименование товара</span>
           </label>
           <input type="text" id="name" name="name" class="form-input form-name" placeholder="Введите наименование товара">
-          <span class="form-error error-name"></span>
         </div>
 
         <label for="input-descr" class="form-label label-descr">
@@ -47,7 +46,6 @@
             <span>Ссылка на изображение товара</span>
           </label>
           <input type="url" id="link" name="link" class="form-input" placeholder="Введите ссылку">
-          <span class="form-error error-link"></span>
         </div>
 
         <div class="form-group">
@@ -55,10 +53,9 @@
             <span>Цена товара</span>
           </label>
           <input type="text" id="price" name="price" class="form-input" placeholder="Введите цену">
-          <span class="form-error error-price"></span>
         </div>
 
-        <button type="submit" id="submit-btn" class="btn-reset form-btn">Добавить товар</button>
+        <button type="submit" id="submit-btn" class="btn-reset form-btn form-btn--active">Добавить товар</button>
       </form>
     </div>
 
@@ -80,14 +77,9 @@
         <li class="content-item">
           <article class="product">
             <div class="product__img">
-              <img src="../img/product-img.jpg" alt="prod">
+              <img src="./img/product-img.jpg" alt="prod">
             </div>
             <div class="product-content">
-              <a href="#" class="product-content__delete">
-                <svg class="">
-                  <use xlink:href="img/sprite.svg#delete"></use>
-                </svg>
-              </a>
               <h3 class="product-content__title">
                 <a href="#">
                   Наименование товара
@@ -97,21 +89,23 @@
                 Довольно-таки интересное описание товара в несколько строк.
                 Довольно-таки интересное описание товара в несколько строк
               </p>
-              <span class="product-content__price">10 000 руб.</span>
+              <div class="d-flex">
+                <span class="product-content__price">10 000 руб.</span>
+              <div class="product-content__delete">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+              </div>
+              </div>
             </div>
           </article>
         </li>
         <li class="content-item">
           <article class="product">
             <div class="product__img">
-              <img src="../img/product-img.jpg" alt="prod">
+              <img src="./img/product-img.jpg" alt="prod">
             </div>
             <div class="product-content">
-              <a href="#" class="product-content__delete">
-                <svg class="">
-                  <use xlink:href="img/sprite.svg#delete"></use>
-                </svg>
-              </a>
               <h3 class="product-content__title">
                 <a href="#">
                   Наименование товара
@@ -121,21 +115,23 @@
                 Довольно-таки интересное описание товара в несколько строк.
                 Довольно-таки интересное описание товара в несколько строк
               </p>
-              <span class="product-content__price">10 000 руб.</span>
+              <div class="d-flex">
+                <span class="product-content__price">10 000 руб.</span>
+              <div class="product-content__delete">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+              </div>
+              </div>
             </div>
           </article>
         </li>
         <li class="content-item">
           <article class="product">
             <div class="product__img">
-              <img src="../img/product-img.jpg" alt="prod">
+              <img src="./img/product-img.jpg" alt="prod">
             </div>
             <div class="product-content">
-              <a href="#" class="product-content__delete">
-                <svg class="">
-                  <use xlink:href="img/sprite.svg#delete"></use>
-                </svg>
-              </a>
               <h3 class="product-content__title">
                 <a href="#">
                   Наименование товара
@@ -145,21 +141,23 @@
                 Довольно-таки интересное описание товара в несколько строк.
                 Довольно-таки интересное описание товара в несколько строк
               </p>
-              <span class="product-content__price">10 000 руб.</span>
+              <div class="d-flex">
+                <span class="product-content__price">10 000 руб.</span>
+              <div class="product-content__delete">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+              </div>
+              </div>
             </div>
           </article>
         </li>
         <li class="content-item">
           <article class="product">
             <div class="product__img">
-              <img src="../img/product-img.jpg" alt="prod">
+              <img src="./img/product-img.jpg" alt="prod">
             </div>
             <div class="product-content">
-              <a href="#" class="product-content__delete">
-                <svg class="">
-                  <use xlink:href="img/sprite.svg#delete"></use>
-                </svg>
-              </a>
               <h3 class="product-content__title">
                 <a href="#">
                   Наименование товара
@@ -169,21 +167,23 @@
                 Довольно-таки интересное описание товара в несколько строк.
                 Довольно-таки интересное описание товара в несколько строк
               </p>
-              <span class="product-content__price">10 000 руб.</span>
+              <div class="d-flex">
+                <span class="product-content__price">10 000 руб.</span>
+              <div class="product-content__delete">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+              </div>
+              </div>
             </div>
           </article>
         </li>
         <li class="content-item">
           <article class="product">
             <div class="product__img">
-              <img src="../img/product-img.jpg" alt="prod">
+              <img src="./img/product-img.jpg" alt="prod">
             </div>
             <div class="product-content">
-              <a href="#" class="product-content__delete">
-                <svg class="">
-                  <use xlink:href="img/sprite.svg#delete"></use>
-                </svg>
-              </a>
               <h3 class="product-content__title">
                 <a href="#">
                   Наименование товара
@@ -193,21 +193,23 @@
                 Довольно-таки интересное описание товара в несколько строк.
                 Довольно-таки интересное описание товара в несколько строк
               </p>
-              <span class="product-content__price">10 000 руб.</span>
+              <div class="d-flex">
+                <span class="product-content__price">10 000 руб.</span>
+              <div class="product-content__delete">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+              </div>
+              </div>
             </div>
           </article>
         </li>
         <li class="content-item">
           <article class="product">
             <div class="product__img">
-              <img src="../img/product-img.jpg" alt="prod">
+              <img src="./img/product-img.jpg" alt="prod">
             </div>
             <div class="product-content">
-              <a href="#" class="product-content__delete">
-                <svg class="">
-                  <use xlink:href="img/sprite.svg#delete"></use>
-                </svg>
-              </a>
               <h3 class="product-content__title">
                 <a href="#">
                   Наименование товара
@@ -217,21 +219,23 @@
                 Довольно-таки интересное описание товара в несколько строк.
                 Довольно-таки интересное описание товара в несколько строк
               </p>
-              <span class="product-content__price">10 000 руб.</span>
+              <div class="d-flex">
+                <span class="product-content__price">10 000 руб.</span>
+              <div class="product-content__delete">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+              </div>
+              </div>
             </div>
           </article>
         </li>
         <li class="content-item">
           <article class="product">
             <div class="product__img">
-              <img src="../img/product-img.jpg" alt="prod">
+              <img src="./img/product-img.jpg" alt="prod">
             </div>
             <div class="product-content">
-              <a href="#" class="product-content__delete">
-                <svg class="">
-                  <use xlink:href="img/sprite.svg#delete"></use>
-                </svg>
-              </a>
               <h3 class="product-content__title">
                 <a href="#">
                   Наименование товара
@@ -241,21 +245,23 @@
                 Довольно-таки интересное описание товара в несколько строк.
                 Довольно-таки интересное описание товара в несколько строк
               </p>
-              <span class="product-content__price">10 000 руб.</span>
+              <div class="d-flex">
+                <span class="product-content__price">10 000 руб.</span>
+              <div class="product-content__delete">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+              </div>
+              </div>
             </div>
           </article>
         </li>
         <li class="content-item">
           <article class="product">
             <div class="product__img">
-              <img src="../img/product-img.jpg" alt="prod">
+              <img src="./img/product-img.jpg" alt="prod">
             </div>
             <div class="product-content">
-              <a href="#" class="product-content__delete">
-                <svg class="">
-                  <use xlink:href="img/sprite.svg#delete"></use>
-                </svg>
-              </a>
               <h3 class="product-content__title">
                 <a href="#">
                   Наименование товара
@@ -265,21 +271,23 @@
                 Довольно-таки интересное описание товара в несколько строк.
                 Довольно-таки интересное описание товара в несколько строк
               </p>
-              <span class="product-content__price">10 000 руб.</span>
+              <div class="d-flex">
+                <span class="product-content__price">10 000 руб.</span>
+              <div class="product-content__delete">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+              </div>
+              </div>
             </div>
           </article>
         </li>
         <li class="content-item">
           <article class="product">
             <div class="product__img">
-              <img src="../img/product-img.jpg" alt="prod">
+              <img src="./img/product-img.jpg" alt="prod">
             </div>
             <div class="product-content">
-              <a href="#" class="product-content__delete">
-                <svg class="">
-                  <use xlink:href="img/sprite.svg#delete"></use>
-                </svg>
-              </a>
               <h3 class="product-content__title">
                 <a href="#">
                   Наименование товара
@@ -289,7 +297,14 @@
                 Довольно-таки интересное описание товара в несколько строк.
                 Довольно-таки интересное описание товара в несколько строк
               </p>
-              <span class="product-content__price">10 000 руб.</span>
+              <div class="d-flex">
+                <span class="product-content__price">10 000 руб.</span>
+              <div class="product-content__delete">
+                <svg class="">
+                  <use xlink:href="img/sprite.svg#delete"></use>
+                </svg>
+              </div>
+              </div>
             </div>
           </article>
         </li>
